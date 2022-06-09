@@ -1,0 +1,418 @@
+* {
+    font-family: 'Montserrat', sans-serif;  
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0A0A0A;
+    height: 2000px;
+}
+
+.name {
+    width: 930px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    height: 85px;
+    border-right: 7px solid #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 19%;
+    margin-top: 5%;
+    animation: 
+    typing 2.1s steps(55, end),
+    cursor 0.8s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0%; }
+    to { width: 930px; }
+}
+  
+@keyframes cursor {
+    from, to { border-color: transparent }
+    50% { border-color: #FFFFFF; }
+}
+
+.line {
+
+    background-color: #08dbb6;
+    width: 930px;
+    height: 8px;
+    margin-top: 3%;
+    margin-left: 19%;
+}
+
+.study {
+    margin-left: 32%;
+    margin-top: 3%;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.front_end {
+    margin-left: 32%;
+    margin-top: 4%;
+    font-size: 40px;
+}
+
+.button_start {
+    margin-left: 35%;
+    margin-top: 170px;
+    width: 400px;
+    height: 70px;
+    border-radius: 60px;
+    font-size: 30px;
+    background: rgba(0,0,0,0);
+    border-color: #08dbb6;
+    font-weight: 400;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button_start i {
+    margin-left: 45px;
+    color: #08dbb6;
+}
+
+.button_start:hover i {
+    color: white;
+    transition-duration: 0.2s;
+    transform: rotate(90deg);
+}
+
+.button_start:hover {
+    background: rgba(102,252,241,0.2);
+    color: #FFFFFF;
+}
+
+.rolstad_website {
+    display: flex;
+    flex-direction: row;
+}
+
+.rolstad_website_img {
+    width: 800px;
+    margin-top: 200px;
+    margin-left: 80px;
+    border-color: #08dbb6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+
+.rolstad_website_text {
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: 80px;
+    
+}
+
+.rolstad_website_title {
+    color: #08dbb6;
+}
+
+.rolstad_website_paragraph {
+    color: #FFFFFF;
+    padding-right: 85px;
+    margin-top: 15px;
+}
+
+.line3 {
+    width: 300px;
+    height: 5px;
+    background-color: #08dbb6;
+    margin-top: 15px;
+}
+
+.bg {
+    animation:slide 10s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgba(12, 11, 11, 0.582) 50%, rgb(22, 22, 22) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:11s;
+}
+  
+  .bg3 {
+    animation-duration:13s;
+}
+
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+
+.infographic {
+    display: flex;
+    flex-direction: row;
+}
+
+.infographic_img {
+    width: 800px;
+    margin-top: 200px;
+    margin-right: 80px;
+    border-color: #08dbb6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.infographic_text {
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.infographic_title {
+    color: #08dbb6;
+}
+
+.infographic_paragraph {
+    color: #FFFFFF;
+    padding-right: 85px;
+    margin-top: 15px;
+}
+
+.line4 {
+    width: 300px;
+    height: 5px;
+    background-color: #08dbb6;
+    margin-top: 15px;
+}
+
+.staatsbosbeheer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+.staatsbosbeheer_text {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.staatsbosbeheer_img1 {
+    height: 600px;
+    margin-left: 80px;
+    border-color: #08dbb6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.staatsbosbeheer_img2 {
+    height: 600px;
+    margin-left: 50px;
+    border-color: #08dbb6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.staatsbosbeheer_title {
+    color: #08dbb6;
+}
+
+.staatsbosbeheer_paragraph {
+    color: #FFFFFF;
+    padding-right: 85px;
+    margin-top: 15px;
+}
+
+.line5 {
+    width: 300px;
+    height: 5px;
+    background-color: #08dbb6;
+    margin-top: 15px;
+}
+
+.rolstad_app {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+.rolstad_app_img1 {
+    height: 600px;
+    border-color: #08dbb6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-right: 50px;
+
+}
+
+.rolstad_app_img2 {
+    height: 600px;
+    border-color: #08dbb6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-right: 80px;
+}
+
+.rolstad_app_text {
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.rolstad_app_title {
+    color: #08dbb6;
+}
+
+.rolstad_app_paragraph {
+    color: #FFFFFF;
+    padding-right: 85px;
+    margin-top: 15px;
+}
+
+.line6 {
+    width: 300px;
+    height: 5px;
+    background-color: #08dbb6;
+    margin-top: 15px;
+}
+
+.redesign {
+    display: flex;
+    flex-direction: row;
+}
+
+.redesign_img {
+    width: 700px;
+    margin-top: 200px;
+    margin-left: 80px;
+    border-color: #08dbb6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+
+.redesign_text {
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: 80px;
+    
+}
+
+.redesign_title {
+    color: #08dbb6;
+}
+
+.redesign_paragraph {
+    color: #FFFFFF;
+    padding-right: 85px;
+    margin-top: 15px;
+}
+
+.line7 {
+    width: 300px;
+    height: 5px;
+    background-color: #08dbb6;
+    margin-top: 15px;
+}
+
+.rolstad_website_button {
+    width: 225px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #08dbb6;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+    color: white;
+}
+
+.rolstad_website_button:hover {
+    background: rgba(102,252,241,0.2);
+}
+
+.infographic_button {
+    width: 225px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #08dbb6;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+    color: white;
+}
+
+.infographic_button:hover {
+    background: rgba(102,252,241,0.2);
+}
+
+.staatsbosbeheer_button {
+    width: 225px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #08dbb6;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+    color: white;
+}
+
+.staatsbosbeheer_button:hover {
+    background: rgba(102,252,241,0.2);
+}
+
+.rolstad_app_button {
+    width: 225px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #08dbb6;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+    color: white;
+}
+
+.rolstad_app_button:hover {
+    background: rgba(102,252,241,0.2);
+}
+
+.redesign_button {
+    width: 225px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #08dbb6;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0);
+    cursor: pointer;
+    color: white;
+}
+
+.redesign_button:hover {
+    background: rgba(102,252,241,0.2);
+}
